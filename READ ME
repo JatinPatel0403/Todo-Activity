@@ -1,0 +1,40 @@
+# Todo App
+
+A basic Todo application using Node.js, Express, and MongoDB.
+
+## Features
+
+1. Add new tasks with a title, description, priority, and due date.
+2. View all tasks.
+3. View a specific task by its ID.
+4. Update an existing task.
+5. Delete a task.
+
+## Installation
+
+1. Clone the repository.
+
+
+2. Go to the project folder:
+   cd your-repository
+
+3. Install the necessary packages:
+   npm install
+
+4. Set up your environment variables (if needed):
+
+   - Connect to MongoDB by setting the URL:
+     url=your_mongodb_connection_string
+   - Replace `your_mongodb_connection_string` with your actual MongoDB connection string.
+
+5. Use Postman to interact with the API endpoints 
+
+    - inserting values using JSON.
+
+## API Endpoints
+
+`GET /todo`: Get all tasks
+`POST /todo`: Create a new task
+`GET /api/todos/:id`: Get a specific task by its ID
+`PUT /todo/:id`: Update a task (e.g., localhost:3000/todo/66609abfb0bb8b85f4af2192)
+`DELETE /todo/:id`: Delete a task
